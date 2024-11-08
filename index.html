@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=enge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <nav>
+            <div class="container">
+                <ul>
+                    <li> <a href="#">Timer</a> </li>
+                    <li> <a href="#">Timer</a> </li>
+                    <li> <a href="#">Timer</a> </li>
+                    <li> <a href="#">Timer</a> </li>
+                    <li> <a href="#">Timer</a> </li>
+                    <li> <a href="#">Timer</a> </li>
+                </ul>
+                <a href="#" class="navbar_brand">Sina</a>
+                <div class="clock">
+                    <ul>
+                        <li id="hours">
+                            00
+                        </li>
+                        <li id="separator">
+                            :
+                        </li>
+                        <li id="minutes">
+                            00
+                        </li>
+                        <li id="separator">
+                            :
+                        </li>
+                        <li id="seconds">
+                            00
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </main>
+    <header class="header">
+        <div class="container">
+            <h1 class="header_title">Name web</h1>
+        </div>
+        <div class="header_overlay"></div>
+    </header>
+
+    <menu>
+        <div class="slideblock">
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <img src="https://img.freepik.com/free-vector/gradient-abstract-background_23-2149115478.jpg"
+                        style="width: 100%;" alt="bg1">
+                </div>
+                <div class="mySlides fade">
+                    <img src="https://masterpiecer-images.s3.yandex.net/1f8e4dbd9e9c11eeb183429f31467427:upscaled"
+                        style="width: 100%;" alt="bg2">
+                </div>
+                <div class="mySlides fade">
+                    <img src="https://masterpiecer-images.s3.yandex.net/f3ce3a8c9f3611ee964c5a76f5576984:upscaled"
+                        style="width: 100%;" alt="bg1">
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">&#10094</a>
+                <a class="next" onclick="plusSlides(1)">&#10095</a>
+            </div>
+            <br>
+            <div style="text-align: center;">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </div>
+        <h1>
+            Speech
+        </h1>
+        <button id="startButton">Start work</button>
+        <button id="stopButton">Stop work</button>
+        <p id="status"></p>
+        <div id="output">
+
+        </div>
+        <a href="https://liki725.github.io/Translate/" target="_blank">Translate</a>
+    </menu>
+    <script src="script.js"></script>
+</body>
+
+</html>
